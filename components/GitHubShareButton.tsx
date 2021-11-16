@@ -31,8 +31,7 @@ export const GitHubShareButton: React.FC = () => {
                   fill='#1ed760'
           ></path>
       </svg>
-    </a>
-       <p id='list'
+      <p id='list'
        style={{
        display: 'none',
     position: 'absolute',
@@ -42,8 +41,6 @@ export const GitHubShareButton: React.FC = () => {
     >
     @zachchan
     </p>
-    
- 
- 
+    </a>
   )
 }

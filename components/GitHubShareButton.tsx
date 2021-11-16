@@ -41,11 +41,13 @@ export const GitHubShareButton: React.FC = () => {
     }}
     >
     <iframe src='https://open.spotify.com/embed/playlist/1B2BamhH9YYUoYvJaGd4lF'
-            width='300'
-            height='380'
-            frameborder='0'
-            allowtransparency='true'
-            allow='encrypted-media'>
+            style={{
+               width:'300',
+            height:'380',
+            frameborder:'0',
+            allow:'encrypted-media'
+        
+        }}>
     </iframe>
     </p>
   </p>

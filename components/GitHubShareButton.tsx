@@ -48,6 +48,6 @@ export const GitHubShareButton: React.FC = () => {
             allow='encrypted-media'>
     </iframe>
     </p>
-  </p
+  </p>
   )
 }

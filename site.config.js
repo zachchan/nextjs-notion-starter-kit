@@ -7,7 +7,7 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '效率汇聚导航',
+  name: '效率导航',
   domain: 'https://zachchan.notion.site/zachchan/zachc-win-202f1f8afe40495e92b892be97c4b1f2',
   author: 'Zach Chan',
 
@@ -18,7 +18,7 @@ module.exports = {
 
   // social usernames (optional)
   twitter: '',
-  github: 'zachchan',
+  github: '',
   linkedin: '',
 
   // default notion icon and cover images for site-wide consistency (optional)

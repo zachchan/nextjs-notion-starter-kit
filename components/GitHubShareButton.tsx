@@ -27,7 +27,7 @@ export const GitHubShareButton: React.FC = () => {
     </svg>
   </p>
   <p id='list'
-     style='display: none;
+     style='display: block;
      position: absolute;
      top: auto;
      right: 0px;'>

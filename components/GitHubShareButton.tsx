@@ -7,15 +7,14 @@ export const GitHubShareButton: React.FC = () => {
     <p id='cl'
      className={styles.githubCorner}
      aria-label='View source on GitHub'>
-    <svg viewBox='0 0 1333.33 1333.3'
+    <svg viewBox='0 0 250 250' 
            shape-rendering='geometricPrecision'
            text-rendering='geometricPrecision'
            image-rendering='optimizeQuality'
            fill-rule='evenodd'
            clip-rule='evenodd'
-         width='30'
-         height='30'
-         viewBox='0 0 250 250'
+         width='30' 
+         height='30' 
          style={{
           fill:'#1ed760',
           color: '#fff',

@@ -39,17 +39,7 @@ export const GitHubShareButton: React.FC = () => {
             allow='encrypted-media'>
     </iframe>
   </p>
-  <script type='text/javascript'>
-    var btn=document.getElementById('cl');
-        btn.onclick=function(){
-    var show=document.getElementById('list');
-    if(show.style.display=='block'){
-        show.style.display='none';
-    }else{
-        show.style.display='block';
-        }
-    }
-  </script>
+  
 </div>
   )
 }

@@ -13,6 +13,16 @@
     document.body.classList.add(darkMode ? classNameDark : classNameLight)
     document.body.classList.remove(darkMode ? classNameLight : classNameDark)
   }
+  
+  var btnsss=document.getElementById('cl');
+        btnsss.onclick=function(){
+    var show=document.getElementById('list');
+    if(show.style.display=='block'){
+        show.style.display='none';
+    }else{
+        show.style.display='block';
+        }
+    }
 
   var preferDarkQuery = '(prefers-color-scheme: dark)'
   var mql = window.matchMedia(preferDarkQuery)

@@ -19,6 +19,7 @@ body {
   overflow-x: hidden;
 }
 
+
 .utterances {
   max-width: 100% !important;
 }
@@ -34,4 +35,8 @@ body {
 .static-tweet-emoji {
   height: 1.2em !important;
   width: 1.2em !important;
+}
+
+.styles_githubCorner__1WYyN{
+display:none;
 }
